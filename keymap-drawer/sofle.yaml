@@ -42,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - KP PLUS
+  - UP ARROW
   - '{'
   - '}'
   - {t: ▽, type: trans}
@@ -53,9 +53,9 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
