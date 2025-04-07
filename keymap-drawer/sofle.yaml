@@ -27,7 +27,7 @@ layers:
   - '0'
   - '-'
   - '='
-  - CAPS
+  - AC PASTE
   - '!'
   - '@'
   - '#'
@@ -52,7 +52,7 @@ layers:
   - ;
   - ':'
   - \
-  - {t: ▽, type: trans}
+  - CAPS
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
