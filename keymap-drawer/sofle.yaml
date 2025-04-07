@@ -27,7 +27,7 @@ layers:
   - ;
   - ':'
   - DELETE
-  - AC PASTE
+  - PASTE
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
