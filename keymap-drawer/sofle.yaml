@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, ENTER, A, S, D, F, G, H, J, K, L, ;, ENTER,
-    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, DELETE, LGUI, LALT, LCTRL, SPACE, lower, lower, SPACE, RCTRL, RALT, raise]
+    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, DELETE, LGUI, LALT, LCTRL, PASTE, lower, lower, SPACE, RCTRL, RALT, raise]
   lower:
   - F1
   - F2
@@ -16,39 +16,34 @@ layers:
   - F11
   - F12
   - ESCAPE
-  - '='
-  - '-'
-  - UP ARROW
-  - '{'
-  - '}'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
   - '['
   - ']'
-  - UP ARROW
-  - ;
+  - '{'
+  - '}'
   - ':'
   - DELETE
-  - PASTE
-  - AC PASTE
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - \
+  - Ctl+V
+  - {t: ▽, type: trans}
+  - KP PLUS
+  - KP SUBTRACT
+  - KP MULTIPLY
+  - KP DIVIDE
   - /
-  - LEFT ARROW
+  - \
   - DOWN ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - CAPS
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+RCTRL
-  - V
+  - HOME
+  - UP ARROW
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,6 +51,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
