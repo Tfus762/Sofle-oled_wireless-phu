@@ -72,11 +72,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F1      &kp F2  &kp F3          &kp F4           &kp F5           &kp F6                           &kp F7     &kp F8         &kp F9    &kp F10   &kp F11    &kp F12
-&kp ESCAPE  &kp N7  &kp N8          &kp N9           &kp N0           &trans                           &kp LBKT   &kp RBKT       &kp LBRC  &kp RBRC  &kp COLON  &kp DELETE
-&trans      &trans  &kp KP_PLUS     &kp KP_SUBTRACT  &kp KP_MULTIPLY  &kp KP_DIVIDE                    &kp SLASH  &kp BACKSLASH  &trans    &trans    &trans     &kp CAPS
-&trans      &trans  &kp HOME        &kp UP_ARROW     &kp END          &trans         &trans    &trans  &trans     &trans         &trans    &trans    &trans     &trans
-                    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans         &trans    &trans  &trans     &trans         &trans    &trans
+&kp F1      &kp F2           &kp F3           &kp F4           &kp F5           &kp F6                             &kp F7         &kp F8          &kp F9           &kp F10          &kp F11  &kp F12
+&kp ESCAPE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3        &kp KP_N4        &kp KP_NUMBER_5                    &kp LBKT       &kp RBKT        &kp LBRC         &kp RBRC         &trans   &kp DELETE
+&trans      &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0                    &kp KP_PLUS    &kp KP_MINUS    &kp KP_MULTIPLY  &kp KP_DIVIDE    &trans   &kp CAPS
+&trans      &trans           &kp HOME         &kp UP_ARROW     &kp END          &trans           &trans    &trans  &kp SEMICOLON  &kp SQT         &kp UP_ARROW     &kp BACKSLASH    &trans   &trans
+                             &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &trans           &trans    &trans  &trans         &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
