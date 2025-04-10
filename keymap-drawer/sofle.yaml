@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, ENTER, A, S, D, F, G, H, J, K, L, ;, ENTER,
-    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RIGHT SHIFT, LGUI, LALT, LCTRL, lower, SPACE, SPACE, lower, RCTRL, RALT, raise]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, ENTER, A, S, D, F, G, H, J, K, L, ;, ENTER,
+    LSHFT, Z, X, C, V, B, MUTE, SCREENSAVER, B, N, M, ',', ., RIGHT SHIFT, LGUI, LALT, LCTRL, lower, SPACE, SPACE, lower, RCTRL, RALT, raise]
   lower:
   - F1
   - F2
@@ -15,7 +15,7 @@ layers:
   - F10
   - F11
   - F12
-  - ESCAPE
+  - HOME
   - KP 1
   - KP 2
   - KP 3
@@ -25,9 +25,9 @@ layers:
   - ']'
   - '{'
   - '}'
-  - {t: ▽, type: trans}
-  - DELETE
-  - {t: ▽, type: trans}
+  - KP EQUAL
+  - _
+  - END
   - KP 6
   - KP 7
   - KP 8
@@ -37,22 +37,22 @@ layers:
   - KP MINUS
   - KP MULTIPLY
   - KP DIVIDE
-  - {t: ▽, type: trans}
-  - CAPS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - UP ARROW
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ;
   - ''''
+  - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - UP ARROW
+  - {t: ▽, type: trans}
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - /
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - '?'
+  - CLCK
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
