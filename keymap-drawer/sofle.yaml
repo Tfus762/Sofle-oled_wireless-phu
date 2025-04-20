@@ -18,9 +18,9 @@ layers:
   - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 1
-  - KP 2
-  - KP 3
+  - KP 7
+  - KP 8
+  - KP 9
   - '['
   - ']'
   - '{'
@@ -42,9 +42,9 @@ layers:
   - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - KP 7
-  - KP 8
-  - KP 9
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: ▽, type: trans}
   - PLAY PAUSE
   - /
@@ -55,7 +55,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - KP 0
-  - KP DOT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
