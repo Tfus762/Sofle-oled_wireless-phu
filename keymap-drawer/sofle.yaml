@@ -55,7 +55,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - KP 0
-  - {t: ▽, type: trans}
+  - KP DOT
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
