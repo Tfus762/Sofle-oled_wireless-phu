@@ -4,15 +4,6 @@
  * SPDX-License-Identifier: MIT
  */
 
-/ {
-    chosen {
-        zmk,display = &oled_display;
-    };
-};
-
-&oled_display {
-    panel-orientation = <270>; // Đây là dòng để xoay màn hình
-};
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
