@@ -28,7 +28,7 @@ layers:
   - '='
   - _
   - END
-  - {t: ▽, type: trans}
+  - L
   - {t: ▽, type: trans}
   - KP 4
   - KP 5
@@ -40,7 +40,7 @@ layers:
   - ''''
   - '"'
   - CAPS
-  - {t: ▽, type: trans}
+  - M
   - {t: ▽, type: trans}
   - KP 1
   - KP 2
