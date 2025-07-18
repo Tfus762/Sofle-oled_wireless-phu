@@ -1,0 +1,46 @@
+/*
+ * Copyright (c) 2023 Your Name
+ * SPDX-License-Identifier: MIT
+ */
+
+// Định nghĩa OLED display và xoay màn hình
+&oled_display {
+    status = "okay"; // Đảm bảo OLED được bật
+    panel-orientation = <270>; // Xoay màn hình 270 độ (chiều dọc)
+    // Nếu màn hình của bạn là 128x64 pixels, sau khi xoay sẽ là 64x128
+    // Bạn có thể thêm các dòng sau nếu gặp vấn đề về kích thước:
+    // width = <64>;
+    // height = <128>;
+};
+
+// Định nghĩa các widget (thông tin hiển thị) và sắp xếp chúng
+&zmk {
+    screen {
+        display = <&oled_display>;
+        // Sắp xếp các widget theo yêu cầu của bạn
+        widgets = <&output_widget &layer_widget &battery_widget &left_custom_text_widget &right_custom_text_widget>;
+
+        // Định nghĩa widget cho chữ tùy chỉnh bên bàn phím trái
+        left_custom_text_widget: left_custom_text_widget {
+            compatible = "zmk,text-widget";
+            label = "Left Custom Text";
+            text = "Cao Dang"; // Nội dung chữ cho bàn phím trái
+            position = <0 32>; // Vị trí hiển thị (x, y) - điều chỉnh nếu cần
+            // Lưu ý: ZMK sẽ tự động xử lý việc hiển thị widget này trên bàn phím trái
+            // nếu bạn đang sử dụng cấu hình split keyboard.
+        };
+
+        // Định nghĩa widget cho chữ tùy chỉnh bên bàn phím phải
+        right_custom_text_widget: right_custom_text_widget {
+            compatible = "zmk,text-widget";
+            label = "Right Custom Text";
+            text = "Tien Phu"; // Nội dung chữ cho bàn phím phải
+            position = <0 32>; // Vị trí hiển thị (x, y) - điều chỉnh nếu cần
+            // Tương tự, ZMK sẽ xử lý hiển thị widget này trên bàn phím phải.
+        };
+
+        integration = <&external_power>;
+        keymap_layers_label = "LAYER";
+        idle_timeout_ms = 300000; // Thời gian chờ trước khi màn hình tắt (300 giây = 5 phút)
+    };
+};
