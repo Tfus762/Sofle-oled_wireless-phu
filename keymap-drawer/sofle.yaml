@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, ENTER, A, S, D, F, G, H, J, K, L, ;, ENTER,
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, ENTER, A, S, D, F, G, H, J, K, L, ;, CAPS,
     LSHFT, Z, X, C, V, B, MUTE, PAUSE, B, N, M, ',', ., LEFT SHIFT, LEFT WIN, LALT, LEFT CONTROL, SPACE, lower, lower, SPACE, RCTRL, RALT, raise]
   lower:
   - F1
@@ -15,9 +15,9 @@ layers:
   - F10
   - F11
   - F12
-  - CAPSLOCK
-  - COPY
-  - PASTE
+  - {t: ▽, type: trans}
+  - AC COPY
+  - AC PASTE
   - KP 7
   - KP 8
   - KP 9
@@ -27,7 +27,7 @@ layers:
   - '}'
   - '='
   - _
-  - CLCK
+  - {t: ▽, type: trans}
   - L
   - {t: ▽, type: trans}
   - KP 4
@@ -39,7 +39,7 @@ layers:
   - KP DIVIDE
   - ''''
   - '"'
-  - CAPS
+  - {t: ▽, type: trans}
   - M
   - {t: ▽, type: trans}
   - KP 1
