@@ -15,7 +15,7 @@ layers:
   - F10
   - F11
   - F12
-  - HOME
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP 7
@@ -27,7 +27,7 @@ layers:
   - '}'
   - '='
   - _
-  - END
+  - CLCK
   - L
   - {t: ▽, type: trans}
   - KP 4
