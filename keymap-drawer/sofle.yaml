@@ -16,8 +16,8 @@ layers:
   - F11
   - F12
   - CAPSLOCK
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - COPY
+  - PASTE
   - KP 7
   - KP 8
   - KP 9
