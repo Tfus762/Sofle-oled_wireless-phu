@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, KP ENTER, A, S, D, F, G, H, J, K, L, ;, KP
-      ENTER, LEFT SHIFT, Z, X, C, V, B, MUTE, PAUSE, B, N, M, ',', ., RSHFT, LEFT WIN, LALT, LCTRL, SPACE, lower, lower, SPACE, RIGHT CONTROL, adjust, adjust]
+      ENTER, LEFT SHIFT, Z, X, C, V, B, MUTE, PAUSE, B, N, M, ',', ., RSHFT, LEFT WIN, LALT, LCTRL, SPACE, lower, lower, SPACE, RIGHT CONTROL, raise, adjust]
   lower:
   - F1
   - F2
@@ -122,8 +122,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -183,5 +183,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
